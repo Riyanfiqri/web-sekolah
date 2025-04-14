@@ -1,0 +1,114 @@
+/* Reset & Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h4 {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Section */
+section {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0d6efd;
+    color: white;
+    margin-top: 40px;
+   
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ffc107;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* Copyright */
+.footer .text-muted {
+    color: #d0dffb !important;
+    font-size: 13px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .footer .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* Utility */
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
